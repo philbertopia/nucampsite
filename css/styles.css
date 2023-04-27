@@ -1,5 +1,6 @@
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Playfair Display', serif;
+    /* background-color: #e8f1f3; */
 }
 
 h1, h2, h3 {
@@ -7,23 +8,35 @@ h1, h2, h3 {
 }
 
 h2 {
-    color: #3046c5;
+    color: #28798d;
+    
 }
 
 header h2 {
-    color: #cec8ff;
+    color: #bae4ee;
+}
+
+.site-footer, .site-footer a {
+    font-family: 'Raleway', sans-serif;
+    color: white;
 }
 
 .site-footer {
-    background-image: linear-gradient(#cecbff,white);
-    padding: 20px 0;
+    padding-top: 40px;
 }
 
 .jumbotron {
     margin: 0;
     padding: 20px;
-    background-image: linear-gradient(to right, #5637dd, #3046c5, #601068);
+    /* background-image: linear-gradient(to right, #5637dd, #3046c5, #601068); */
     color: white;
+    background: url("../img/header-bg.png") no-repeat center center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-size: cover;
+    padding: 20px 0;
 }
 
 .row-content {
@@ -32,8 +45,9 @@ header h2 {
     min-height: 200px;
 }
 
-.navbar {
-    background-color: #901cad;
+.navbar, .site-footer {
+    /* background-color: #212f5d; */
+    background-image: linear-gradient(to right, #212f5d, #28798d);
 }
 
 a, a:hover {
@@ -42,9 +56,21 @@ a, a:hover {
   }
 
   .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5) ;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 1rem;
   }
 
   .carousel {
-    border: solid #5637dd;
+    border: solid #212f5d;
+    border-radius: 1rem;
+    overflow: hidden;
+  }
+
+  label {
+    font-family: 'Raleway', sans-serif;
+  }
+
+  input, select, nav {
+    font-family: 'Raleway', sans-serif;
   }

@@ -30,26 +30,30 @@
   </head>
 
   <body>
-    <header class="jumbotron jumbotron-fluid">
+    <header class="jumbotron jumbotron-fluid ">
       <div class="container">
-        <div class="row">
+        <div class="row has-bg-img">
           <div class="col-4 col-sm-3 col-md-2 align-self-center">
             <a href="index.html"
-              ><img class="img-fluid" src="img/logo.png" alt=""
+              ><img class="img-fluid" src="img/nucamp-logo-challenge-white.png" alt=""
             /></a>
           </div>
           <div class="col">
             <h1>NuCamp</h1>
-            <h2>a better way to camp</h2>
+            <h2>Where Adventure Meets Comfort</h2>
+          </div>
+          <div class="col-md-4 col-xl-2 mt-4">
+            <a class="btn btn-info btn-lg text-nowrap" href="#reserveForm" role="button" data-toggle="tooltip" data-placement="bottom" data-html="true" title="Or call us at <br/><strong>1-206-555-1234</strong>">Reserve Campsite</a>
           </div>
         </div>
       </div>
+      
     </header>
 
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html"
-          ><img src="img/logo.png" height="30" width="30" alt=""
+        <a class="navbar-brand" href="#"
+          ><img src="img/nucamp-logo-challenge-white.png" height="30" width="30" alt=""
         /></a>
         <button
           class="navbar-toggler"
@@ -61,12 +65,12 @@
         </button>
         <div class="collapse navbar-collapse">
           <ul class="navbar-nav" id="nucampNavbar">
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="index.html"
                 ><i class="fa fa-home fa-lg"></i> Home</a
               >
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="aboutus.html"
                 ><i class="fa fa-info fa-lg"></i> About</a
               >
@@ -82,6 +86,11 @@
               >
             </li>
           </ul>
+          <span class="navbar-text ml-auto">
+            <a role="button" data-toggle="modal" data-target="#loginModal" href="">
+                <i class="fa fa-sign-in"></i> Login
+            </a>
+          </span>
         </div>
       </div>
     </nav>
